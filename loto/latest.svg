@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Lake of the Ozarks conditions</title>
+  <desc id="desc">Surface water temperature 74 degrees Fahrenheit and lake elevation 657.7 feet, reported by Ameren Missouri on October 16, 2026 at 8:13 AM local time.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eaf8f6"/>
+      <stop offset="1" stop-color="#d4ece8"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b7891"/>
+      <stop offset="1" stop-color="#07526c"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#073844" flood-opacity="0.13"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <path d="M0 566 C150 522 258 606 418 565 C580 524 710 599 870 558 C1018 520 1110 548 1200 574 L1200 800 L0 800 Z" fill="url(#water)"/>
+  <path d="M0 610 C160 566 270 647 432 608 C594 569 722 639 886 601 C1021 570 1112 590 1200 615" fill="none" stroke="#67c6cc" stroke-width="3" opacity="0.55"/>
+  <path d="M0 666 C162 626 282 700 447 660 C602 622 739 691 901 652 C1038 619 1124 642 1200 666" fill="none" stroke="#bde9e4" stroke-width="2" opacity="0.38"/>
+
+  <g transform="translate(72 62)">
+    <g transform="translate(0 4)" aria-hidden="true">
+      <circle cx="34" cy="34" r="34" fill="#08738b"/>
+      <path d="M11 37 C22 29 31 45 43 37 C54 29 61 36 68 32" fill="none" stroke="#d9f4ef" stroke-width="4" stroke-linecap="round"/>
+      <path d="M15 48 C27 40 36 55 49 47 C56 43 62 43 67 44" fill="none" stroke="#86d6d1" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <text x="92" y="26" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="0" fill="#08738b">CURRENT CONDITIONS</text>
+    <text x="92" y="65" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700" letter-spacing="0" fill="#102e38">Lake of the Ozarks</text>
+    <text x="1056" y="29" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="0" fill="#31535d">UPDATED</text>
+    <text x="1056" y="59" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#102e38">Oct 16, 2026 · 4:58 PM CDT</text>
+  </g>
+
+  <line x1="72" y1="166" x2="1128" y2="166" stroke="#9bc9c5" stroke-width="2"/>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="204" width="506" height="314" rx="8" fill="#ffffff"/>
+    <rect x="622" y="204" width="506" height="314" rx="8" fill="#ffffff"/>
+  </g>
+
+  <g transform="translate(112 242)">
+    <g aria-hidden="true">
+      <circle cx="28" cy="28" r="28" fill="#e3f5f2"/>
+      <path d="M26 12 V35 A11 11 0 1 0 34 35 V12 A4 4 0 0 0 26 12 Z" fill="none" stroke="#08738b" stroke-width="4" stroke-linejoin="round"/>
+      <circle cx="30" cy="41" r="6" fill="#f06f4f"/>
+    </g>
+    <text x="76" y="23" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="0" fill="#47666e">SURFACE WATER</text>
+    <text x="0" y="157" font-family="Arial, Helvetica, sans-serif" font-size="116" font-weight="700" letter-spacing="0" fill="#102e38">74<tspan font-size="55" baseline-shift="super">°F</tspan></text>
+    <line x1="0" y1="187" x2="426" y2="187" stroke="#d3e4e2" stroke-width="2"/>
+    <text x="0" y="229" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#31535d">Reported Oct 16, 2026 · 8:13 AM local</text>
+    <text x="0" y="263" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#08738b">AMEREN MISSOURI</text>
+  </g>
+
+  <g transform="translate(662 242)">
+    <g aria-hidden="true">
+      <circle cx="28" cy="28" r="28" fill="#e3f5f2"/>
+      <path d="M11 36 C19 30 25 42 33 36 C41 30 47 39 53 34" fill="none" stroke="#08738b" stroke-width="4" stroke-linecap="round"/>
+      <path d="M17 21 H47" stroke="#f0ad4e" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <text x="76" y="23" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="0" fill="#47666e">LAKE ELEVATION</text>
+    <text x="0" y="157" font-family="Arial, Helvetica, sans-serif" font-size="104" font-weight="700" letter-spacing="0" fill="#102e38">657.7<tspan dx="8" font-size="38" font-weight="700">FT</tspan></text>
+    <line x1="0" y1="187" x2="426" y2="187" stroke="#d3e4e2" stroke-width="2"/>
+    <text x="0" y="229" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#31535d">Reported Oct 16, 2026 · 8:13 AM local</text>
+    <text x="0" y="263" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#08738b">AMEREN MISSOURI</text>
+  </g>
+
+  <g transform="translate(72 584)">
+    <rect x="0" y="0" width="1056" height="112" rx="8" fill="#ffffff" opacity="0.96"/>
+    <rect x="0" y="0" width="8" height="112" rx="4" fill="#f0ad4e"/>
+    <text x="34" y="40" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="0" fill="#31535d">READING NOTE</text>
+    <text x="34" y="75" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#102e38">Lake level is shown as reported; the source page does not specify a vertical datum.</text>
+  </g>
+
+  <text x="72" y="756" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#d9f4ef">Source: Ameren Missouri · Lake of the Ozarks Reports</text>
+  <text x="1128" y="756" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#d9f4ef">DIRECT REPORT · SAME-DAY READING</text>
+</svg>
