@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
-  <title id="title">Lake of the Ozarks current conditions</title>
-  <desc id="desc">Latest available Ameren Missouri report: surface water temperature 74 degrees Fahrenheit and lake level 657.7 feet, both reported October 16, 2026 at 8:13 AM local time. Ameren does not specify the lake-level datum on this report page.</desc>
+  <title id="title">Lake of the Ozarks latest available conditions</title>
+  <desc id="desc">Latest available Ameren report: surface water temperature 74 degrees Fahrenheit and lake level 657.7 feet, both reported October 16, 2026 at 8:13 AM. Ameren does not specify the lake-level datum. Graphic updated October 18, 2026 at 8:09 AM Central Daylight Time.</desc>
 
   <defs>
     <linearGradient id="header" x1="0" y1="0" x2="1" y2="1">
@@ -31,7 +31,7 @@
     <text x="104" y="29" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="0" fill="#a9e5e8">LATEST AVAILABLE CONDITIONS</text>
     <text x="104" y="78" font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700" letter-spacing="0" fill="#ffffff">Lake of the Ozarks</text>
     <text x="1056" y="28" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="0" fill="#a9e5e8">GRAPHIC UPDATED</text>
-    <text x="1056" y="61" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="0" fill="#ffffff">Oct 17, 2026 · 8:09 AM CDT</text>
+    <text x="1056" y="61" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="0" fill="#ffffff">Oct 18, 2026 · 8:09 AM CDT</text>
   </g>
 
   <g filter="url(#shadow)">
@@ -47,8 +47,8 @@
     <text x="0" y="181" font-family="Arial, Helvetica, sans-serif" font-size="126" font-weight="700" letter-spacing="0" fill="#102e38">74<tspan font-size="54" baseline-shift="super">°F</tspan></text>
     <line x1="0" y1="214" x2="426" y2="214" stroke="#d3e4e2" stroke-width="2"/>
     <text x="0" y="256" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#102e38">Reported Oct 16, 2026</text>
-    <text x="0" y="289" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#31535d">8:13 AM local time</text>
-    <text x="0" y="326" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="0" fill="#087e8b">SOURCE · AMEREN MISSOURI</text>
+    <text x="0" y="289" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#31535d">8:13 AM · Ameren report time</text>
+    <text x="0" y="326" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="0" fill="#087e8b">SOURCE · AMEREN</text>
   </g>
 
   <g transform="translate(662 264)">
@@ -60,7 +60,7 @@
     <line x1="0" y1="214" x2="426" y2="214" stroke="#d3e4e2" stroke-width="2"/>
     <text x="0" y="256" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#102e38">Reported Oct 16, 2026 · 8:13 AM</text>
     <text x="0" y="289" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#31535d">Datum/reference not specified</text>
-    <text x="0" y="326" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="0" fill="#087e8b">SOURCE · AMEREN MISSOURI</text>
+    <text x="0" y="326" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="0" fill="#087e8b">SOURCE · AMEREN</text>
   </g>
 
   <g transform="translate(72 625)">
@@ -68,9 +68,9 @@
     <circle cx="34" cy="33" r="15" fill="#f6bd60"/>
     <text x="34" y="40" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#073b4c">i</text>
     <text x="64" y="28" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#4c3b12">FRESHNESS NOTE</text>
-    <text x="64" y="52" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#4c3b12">No newer Ameren report was posted as of 8:09 AM CDT on Oct 17.</text>
+    <text x="64" y="52" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#4c3b12">Latest Ameren post is dated Oct 16; conditions may have changed.</text>
   </g>
 
-  <text x="72" y="766" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#d9f4ef">Primary source: Ameren Missouri · Lake of the Ozarks Reports</text>
-  <text x="1128" y="766" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#d9f4ef">Direct readings · Not estimated</text>
+  <text x="72" y="766" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#d9f4ef">Primary source: Ameren · Lake of the Ozarks Reports</text>
+  <text x="1128" y="766" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#d9f4ef">Reported readings · Not estimated</text>
 </svg>
