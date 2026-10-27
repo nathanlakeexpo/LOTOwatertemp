@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
   <title id="title">Lake of the Ozarks latest posted conditions</title>
-  <desc id="desc">Ameren reported a Lake of the Ozarks surface water temperature of 71 degrees Fahrenheit and a lake level of 657.67 feet above mean sea level at Bagnell Dam on October 23, 2026 at 9:25 AM Central Daylight Time. These are the latest posted readings as of October 26, 2026, not real-time measurements.</desc>
+  <desc id="desc">Ameren reported a Lake of the Ozarks surface water temperature of 70 degrees Fahrenheit and a lake level of 657.7 feet above mean sea level at Bagnell Dam on October 26, 2026 at 9:01 AM. These are the latest posted readings as of October 27, 2026, not real-time measurements.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#f4fbfa"/>
@@ -28,7 +28,7 @@
     <text x="92" y="23" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#087a91">LATEST POSTED CONDITIONS</text>
     <text x="92" y="65" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" fill="#102f3a">Lake of the Ozarks</text>
     <text x="1056" y="23" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#45636c">UPDATED</text>
-    <text x="1056" y="54" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#102f3a">Oct 26, 2026 &#183; 8:09 AM CDT</text>
+    <text x="1056" y="54" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#102f3a">Oct 27, 2026 &#183; 8:09 AM CDT</text>
   </g>
 
   <line x1="72" y1="158" x2="1128" y2="158" stroke="#97c7c3" stroke-width="2"/>
@@ -43,10 +43,10 @@
     <path d="M26 11 V34 A11 11 0 1 0 34 34 V11 A4 4 0 0 0 26 11 Z" fill="none" stroke="#087a91" stroke-width="4" stroke-linejoin="round"/>
     <circle cx="30" cy="40" r="6" fill="#ed7656"/>
     <text x="76" y="23" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#49666e">SURFACE WATER</text>
-    <text x="0" y="171" font-family="Arial, Helvetica, sans-serif" font-size="124" font-weight="700" fill="#102f3a">71<tspan font-size="55" baseline-shift="super">&#176;F</tspan></text>
+    <text x="0" y="171" font-family="Arial, Helvetica, sans-serif" font-size="124" font-weight="700" fill="#102f3a">70<tspan font-size="55" baseline-shift="super">&#176;F</tspan></text>
     <text x="2" y="192" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#58717a">AMEREN SURFACE READING</text>
     <line x1="0" y1="204" x2="426" y2="204" stroke="#d4e5e3" stroke-width="2"/>
-    <text x="0" y="245" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#35545e">Reported Oct 23 &#183; 9:25 AM CDT</text>
+    <text x="0" y="245" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#35545e">Reported Oct 26 &#183; 9:01 AM</text>
     <text x="0" y="281" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#087a91">AMEREN MISSOURI</text>
   </g>
 
@@ -55,10 +55,10 @@
     <path d="M11 36 C19 29 25 42 33 36 C41 29 47 39 53 33" fill="none" stroke="#087a91" stroke-width="4" stroke-linecap="round"/>
     <path d="M16 20 H48" stroke="#e9aa49" stroke-width="4" stroke-linecap="round"/>
     <text x="76" y="23" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#49666e">LAKE LEVEL</text>
-    <text x="0" y="164" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="700" fill="#102f3a">657.67<tspan dx="8" font-size="34">FT</tspan></text>
+    <text x="0" y="164" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="700" fill="#102f3a">657.7<tspan dx="8" font-size="34">FT</tspan></text>
     <text x="2" y="192" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#58717a">FEET ABOVE MEAN SEA LEVEL</text>
     <line x1="0" y1="204" x2="426" y2="204" stroke="#d4e5e3" stroke-width="2"/>
-    <text x="0" y="245" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#35545e">Reported Oct 23 &#183; 9:25 AM CDT</text>
+    <text x="0" y="245" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#35545e">Reported Oct 26 &#183; 9:01 AM</text>
     <text x="0" y="281" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#087a91">AMEREN &#183; BAGNELL DAM</text>
   </g>
 
@@ -66,7 +66,7 @@
     <rect width="1056" height="62" rx="8" fill="#ffffff" fill-opacity="0.92"/>
     <circle cx="31" cy="31" r="13" fill="#e9aa49"/>
     <text x="31" y="37" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#173743">i</text>
-    <text x="58" y="38" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#294b56">Latest posted report is 3 days old; readings are not real-time measurements.</text>
+    <text x="58" y="38" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#294b56">Latest posted report is from yesterday; readings are not real-time measurements.</text>
   </g>
 
   <text x="72" y="759" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#dff6f2">Source: Ameren Lake of the Ozarks Reports</text>
