@@ -1,78 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
-  <title id="title">Lake of the Ozarks current conditions</title>
-  <desc id="desc">Latest available surface water temperature is 66 degrees Fahrenheit, reported November 7, 2026 at 8:37 AM Central Standard Time. Latest available lake level is 657.46 feet Union Electric Datum, measured November 9, 2026 at 7:00 PM Central Standard Time.</desc>
+  <title id="title">Lake of the Ozarks conditions</title>
+  <desc id="desc">Ameren Missouri's latest posted report lists a surface water temperature of 66 degrees Fahrenheit and a lake level of 657.5 feet Union Electric Datum, reported November 10, 2026 at 9:23 AM Central Standard Time.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#073B4C"/>
-      <stop offset="1" stop-color="#0B5964"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#073745"/>
+      <stop offset="1" stop-color="#0B5660"/>
     </linearGradient>
-    <linearGradient id="water" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#55D6BE"/>
-      <stop offset="1" stop-color="#42B7D5"/>
+    <linearGradient id="levelAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#18A6A6"/>
+      <stop offset="1" stop-color="#47C6CF"/>
     </linearGradient>
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
-      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#032933" flood-opacity="0.28"/>
-    </filter>
   </defs>
 
-  <rect width="1200" height="800" fill="url(#bg)"/>
-  <path d="M0 704 C170 648 302 754 468 704 S790 650 966 707 S1132 731 1200 704 V800 H0 Z" fill="#0B4C5A" opacity="0.62"/>
-  <path d="M0 742 C182 688 323 790 497 740 S824 696 1012 748 S1145 753 1200 738" fill="none" stroke="#54C9C1" stroke-width="3" opacity="0.28"/>
+  <rect width="1200" height="800" fill="url(#background)"/>
+  <path d="M0 786 C150 748 282 820 438 782 S748 752 916 786 S1117 806 1200 780 V800 H0 Z" fill="#0A4853" opacity="0.75"/>
+  <circle cx="1092" cy="93" r="56" fill="none" stroke="#7EDBD1" stroke-width="2" opacity="0.28"/>
+  <path d="M1049 93 C1062 80 1074 106 1087 93 S1113 80 1128 93" fill="none" stroke="#8BE4D8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M1054 108 C1067 95 1079 121 1092 108 S1114 98 1124 107" fill="none" stroke="#45C4CD" stroke-width="5" stroke-linecap="round"/>
 
   <g font-family="Arial, Helvetica, sans-serif">
-    <text x="70" y="78" fill="#8BE5D5" font-size="18" font-weight="700" letter-spacing="2.4">DAILY CONDITIONS</text>
-    <text x="70" y="137" fill="#FFFFFF" font-size="50" font-weight="700">Lake of the Ozarks</text>
-    <text x="70" y="172" fill="#B9DBDF" font-size="20">Latest reliable published readings</text>
-    <g transform="translate(1015 62)">
-      <circle cx="42" cy="42" r="41" fill="none" stroke="#70DCCB" stroke-width="2" opacity="0.7"/>
-      <path d="M17 45 C29 34 39 55 51 44 S73 36 78 43" fill="none" stroke="#8BE5D5" stroke-width="4" stroke-linecap="round"/>
-      <path d="M19 56 C31 45 41 66 53 55 S72 48 77 54" fill="none" stroke="#42B7D5" stroke-width="4" stroke-linecap="round"/>
+    <text x="70" y="70" fill="#8BE4D8" font-size="18" font-weight="700" letter-spacing="2.2">CURRENT CONDITIONS</text>
+    <text x="70" y="132" fill="#FFFFFF" font-size="52" font-weight="700">Lake of the Ozarks</text>
+    <text x="70" y="170" fill="#C3E0E2" font-size="20">Latest reliable readings published by Ameren Missouri</text>
+
+    <g>
+      <rect x="78" y="230" width="510" height="330" rx="8" fill="#02232B" opacity="0.26"/>
+      <rect x="628" y="230" width="510" height="330" rx="8" fill="#02232B" opacity="0.26"/>
+      <rect x="70" y="218" width="510" height="330" rx="8" fill="#F8FBFA"/>
+      <rect x="620" y="218" width="510" height="330" rx="8" fill="#F8FBFA"/>
     </g>
 
     <g>
-      <rect x="78" y="228" width="510" height="330" rx="8" fill="#032933" opacity="0.24"/>
-      <rect x="628" y="228" width="510" height="330" rx="8" fill="#032933" opacity="0.24"/>
-      <rect x="70" y="218" width="510" height="330" rx="8" fill="#F7FBFA"/>
-      <rect x="620" y="218" width="510" height="330" rx="8" fill="#F7FBFA"/>
+      <rect x="70" y="218" width="510" height="10" rx="5" fill="#F0B54A"/>
+      <circle cx="117" cy="280" r="22" fill="#FFF0D1"/>
+      <path d="M117 262 V286 M109 270 V285 A10 10 0 1 0 125 285 V270 A8 8 0 0 0 109 270" fill="none" stroke="#9C6200" stroke-width="3" stroke-linecap="round"/>
+      <text x="153" y="288" fill="#36545B" font-size="20" font-weight="700">SURFACE WATER TEMPERATURE</text>
+      <text x="106" y="405" fill="#073745" font-size="104" font-weight="700">66<tspan font-size="50" baseline-shift="super">&#176;F</tspan></text>
+      <line x1="106" y1="437" x2="544" y2="437" stroke="#DCE8E7" stroke-width="2"/>
+      <text x="106" y="478" fill="#36545B" font-size="19" font-weight="700">Reported Nov 10, 2026</text>
+      <text x="106" y="510" fill="#687E83" font-size="17">9:23 AM CST</text>
     </g>
 
     <g>
-      <rect x="70" y="218" width="510" height="9" rx="4" fill="#F2B84B"/>
-      <circle cx="116" cy="277" r="21" fill="#FFF0CE"/>
-      <path d="M116 260 V286 M108 268 V284 A10 10 0 1 0 124 284 V268 A8 8 0 0 0 108 268" fill="none" stroke="#A96600" stroke-width="3" stroke-linecap="round"/>
-      <text x="151" y="285" fill="#37535A" font-size="21" font-weight="700">SURFACE WATER TEMPERATURE</text>
-      <text x="106" y="397" fill="#073B4C" font-size="100" font-weight="700">66<tspan font-size="52" baseline-shift="super">°F</tspan></text>
-      <line x1="106" y1="429" x2="544" y2="429" stroke="#DCE9E8" stroke-width="2"/>
-      <text x="106" y="468" fill="#37535A" font-size="19" font-weight="700">Reported Nov 7, 2026 • 8:37 AM CST</text>
-      <text x="106" y="500" fill="#6B7F83" font-size="17">Latest Ameren surface reading</text>
-      <rect x="409" y="304" width="132" height="38" rx="19" fill="#FFF0CE"/>
-      <text x="475" y="330" fill="#8A5700" font-size="16" font-weight="700" text-anchor="middle">3 DAYS OLD</text>
+      <rect x="620" y="218" width="510" height="10" rx="5" fill="url(#levelAccent)"/>
+      <circle cx="667" cy="280" r="22" fill="#DDF4F1"/>
+      <path d="M651 281 C660 272 666 289 675 280 S689 274 693 279 M653 290 C662 281 668 298 677 289 S689 283 692 287" fill="none" stroke="#087A83" stroke-width="3" stroke-linecap="round"/>
+      <text x="703" y="288" fill="#36545B" font-size="20" font-weight="700">LAKE LEVEL</text>
+      <text x="656" y="405" fill="#073745" font-size="90" font-weight="700">657.5<tspan font-size="39"> ft</tspan></text>
+      <line x1="656" y1="437" x2="1094" y2="437" stroke="#DCE8E7" stroke-width="2"/>
+      <text x="656" y="478" fill="#36545B" font-size="19" font-weight="700">Reported Nov 10, 2026</text>
+      <text x="656" y="510" fill="#687E83" font-size="17">9:23 AM CST | Union Electric Datum</text>
     </g>
 
     <g>
-      <rect x="620" y="218" width="510" height="9" rx="4" fill="url(#water)"/>
-      <circle cx="666" cy="277" r="21" fill="#DDF5F2"/>
-      <path d="M651 281 C659 273 665 288 673 280 S687 274 691 279 M653 289 C661 281 667 296 675 288 S686 282 689 286" fill="none" stroke="#087C86" stroke-width="3" stroke-linecap="round"/>
-      <text x="701" y="285" fill="#37535A" font-size="21" font-weight="700">LAKE LEVEL</text>
-      <text x="656" y="397" fill="#073B4C" font-size="86" font-weight="700">657.46<tspan font-size="38"> ft</tspan></text>
-      <line x1="656" y1="429" x2="1094" y2="429" stroke="#DCE9E8" stroke-width="2"/>
-      <text x="656" y="468" fill="#37535A" font-size="19" font-weight="700">Measured Nov 9, 2026 • 7:00 PM CST</text>
-      <text x="656" y="500" fill="#6B7F83" font-size="17">Union Electric Datum (UED)</text>
-      <rect x="936" y="304" width="158" height="38" rx="19" fill="#DDF5F2"/>
-      <text x="1015" y="330" fill="#08727A" font-size="16" font-weight="700" text-anchor="middle">LATEST LEVEL</text>
+      <rect x="70" y="582" width="1060" height="92" rx="8" fill="#062F39" stroke="#3E7983" stroke-width="1.5"/>
+      <circle cx="114" cy="628" r="21" fill="#F0B54A"/>
+      <text x="114" y="636" fill="#073745" font-size="24" font-weight="700" text-anchor="middle">i</text>
+      <text x="153" y="618" fill="#FFFFFF" font-size="19" font-weight="700">Latest posted report</text>
+      <text x="153" y="649" fill="#C3E0E2" font-size="17">Both readings share Ameren's report time and are not real-time measurements.</text>
     </g>
 
-    <g>
-      <rect x="70" y="584" width="1060" height="88" rx="8" fill="#073440" stroke="#347482" stroke-width="1.5"/>
-      <circle cx="111" cy="628" r="20" fill="#F2B84B"/>
-      <text x="111" y="636" text-anchor="middle" fill="#073B4C" font-size="24" font-weight="700">!</text>
-      <text x="148" y="620" fill="#FFFFFF" font-size="19" font-weight="700">Reading times differ</text>
-      <text x="148" y="648" fill="#B9DBDF" font-size="17">Temperature is Ameren’s latest published report and may not reflect current conditions.</text>
-    </g>
-
-    <text x="70" y="725" fill="#B9DBDF" font-size="16">Sources: Ameren Missouri • Bagnell headwater level verified via Lake Ozarks Dock &amp; Lift</text>
-    <text x="1130" y="725" fill="#FFFFFF" font-size="16" font-weight="700" text-anchor="end">Updated Nov 10, 2026 • 8:09 AM CST</text>
-    <text x="70" y="759" fill="#79B7BE" font-size="14">Conditions vary by location and depth. Use local observations for on-water decisions.</text>
+    <text x="70" y="728" fill="#B6D7DA" font-size="16">Source: Ameren Missouri Lake Level Reports</text>
+    <text x="1130" y="728" fill="#FFFFFF" font-size="16" font-weight="700" text-anchor="end">Updated Nov 11, 2026 | 8:09 AM CST</text>
+    <text x="70" y="763" fill="#80B9BF" font-size="14">Conditions can vary by location and depth. Check local observations before going on the water.</text>
   </g>
+
 </svg>
