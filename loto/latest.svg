@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
   <title id="title">Lake of the Ozarks conditions</title>
-  <desc id="desc">Ameren Missouri's latest posted report lists a surface water temperature of 66 degrees Fahrenheit and a lake level of 657.5 feet Union Electric Datum, reported November 10, 2026 at 9:23 AM Central Standard Time.</desc>
+  <desc id="desc">Ameren Missouri's latest posted report lists a surface water temperature of 66 degrees Fahrenheit and a lake level of 657.5 feet Union Electric Datum, reported November 10, 2026 at 9:23 AM Central Standard Time. Graphic updated November 12, 2026 at 8:09 AM Central Standard Time.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#073745"/>
@@ -57,13 +57,12 @@
       <rect x="70" y="582" width="1060" height="92" rx="8" fill="#062F39" stroke="#3E7983" stroke-width="1.5"/>
       <circle cx="114" cy="628" r="21" fill="#F0B54A"/>
       <text x="114" y="636" fill="#073745" font-size="24" font-weight="700" text-anchor="middle">i</text>
-      <text x="153" y="618" fill="#FFFFFF" font-size="19" font-weight="700">Latest posted report</text>
-      <text x="153" y="649" fill="#C3E0E2" font-size="17">Both readings share Ameren's report time and are not real-time measurements.</text>
+      <text x="153" y="618" fill="#FFFFFF" font-size="19" font-weight="700">Latest Ameren report is two days old</text>
+      <text x="153" y="649" fill="#C3E0E2" font-size="17">Both readings share the report time above and are not real-time measurements.</text>
     </g>
 
     <text x="70" y="728" fill="#B6D7DA" font-size="16">Source: Ameren Missouri Lake Level Reports</text>
-    <text x="1130" y="728" fill="#FFFFFF" font-size="16" font-weight="700" text-anchor="end">Updated Nov 11, 2026 | 8:09 AM CST</text>
+    <text x="1130" y="728" fill="#FFFFFF" font-size="16" font-weight="700" text-anchor="end">Updated Nov 12, 2026 | 8:09 AM CST</text>
     <text x="70" y="763" fill="#80B9BF" font-size="14">Conditions can vary by location and depth. Check local observations before going on the water.</text>
   </g>
-
 </svg>
