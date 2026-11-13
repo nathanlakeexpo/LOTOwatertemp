@@ -1,68 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
-  <title id="title">Lake of the Ozarks conditions</title>
-  <desc id="desc">Ameren Missouri's latest posted report lists a surface water temperature of 66 degrees Fahrenheit and a lake level of 657.5 feet Union Electric Datum, reported November 10, 2026 at 9:23 AM Central Standard Time. Graphic updated November 12, 2026 at 8:09 AM Central Standard Time.</desc>
+  <title id="title">Lake of the Ozarks current conditions</title>
+  <desc id="desc">Surface water temperature is 66 degrees Fahrenheit, reported by Ameren Missouri on November 12, 2026 at 8:05 AM Central Standard Time. Lake level is 657.4 feet Union Electric Datum, observed by NOAA National Water Prediction Service gauge LKSM7 on November 13, 2026 at 2:00 AM Central Standard Time. Graphic updated November 13, 2026 at 8:09 AM Central Standard Time.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#073745"/>
-      <stop offset="1" stop-color="#0B5660"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#063743"/>
+      <stop offset="1" stop-color="#0B5961"/>
     </linearGradient>
-    <linearGradient id="levelAccent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#18A6A6"/>
-      <stop offset="1" stop-color="#47C6CF"/>
+    <linearGradient id="levelBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#07949B"/>
+      <stop offset="1" stop-color="#35C0C3"/>
     </linearGradient>
   </defs>
 
-  <rect width="1200" height="800" fill="url(#background)"/>
-  <path d="M0 786 C150 748 282 820 438 782 S748 752 916 786 S1117 806 1200 780 V800 H0 Z" fill="#0A4853" opacity="0.75"/>
-  <circle cx="1092" cy="93" r="56" fill="none" stroke="#7EDBD1" stroke-width="2" opacity="0.28"/>
-  <path d="M1049 93 C1062 80 1074 106 1087 93 S1113 80 1128 93" fill="none" stroke="#8BE4D8" stroke-width="5" stroke-linecap="round"/>
-  <path d="M1054 108 C1067 95 1079 121 1092 108 S1114 98 1124 107" fill="none" stroke="#45C4CD" stroke-width="5" stroke-linecap="round"/>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <path d="M0 770 C148 731 284 806 441 770 S748 739 919 774 S1115 795 1200 765 V800 H0 Z" fill="#073F49" opacity="0.9"/>
+  <circle cx="1092" cy="92" r="55" fill="none" stroke="#8FE3D7" stroke-width="2" opacity="0.27"/>
+  <path d="M1048 91 C1061 78 1074 104 1087 91 S1113 78 1129 91" fill="none" stroke="#92E7DB" stroke-width="5" stroke-linecap="round"/>
+  <path d="M1054 108 C1067 95 1079 121 1092 108 S1114 98 1124 107" fill="none" stroke="#41C5C8" stroke-width="5" stroke-linecap="round"/>
 
   <g font-family="Arial, Helvetica, sans-serif">
-    <text x="70" y="70" fill="#8BE4D8" font-size="18" font-weight="700" letter-spacing="2.2">CURRENT CONDITIONS</text>
+    <text x="70" y="70" fill="#93E6DA" font-size="18" font-weight="700" letter-spacing="2.2">CURRENT CONDITIONS</text>
     <text x="70" y="132" fill="#FFFFFF" font-size="52" font-weight="700">Lake of the Ozarks</text>
-    <text x="70" y="170" fill="#C3E0E2" font-size="20">Latest reliable readings published by Ameren Missouri</text>
+    <text x="70" y="170" fill="#C8E4E5" font-size="20">Latest reliable readings from direct public reports</text>
+
+    <rect x="78" y="230" width="510" height="330" rx="8" fill="#02232B" opacity="0.25"/>
+    <rect x="628" y="230" width="510" height="330" rx="8" fill="#02232B" opacity="0.25"/>
+    <rect x="70" y="218" width="510" height="330" rx="8" fill="#FAFCFB"/>
+    <rect x="620" y="218" width="510" height="330" rx="8" fill="#FAFCFB"/>
 
     <g>
-      <rect x="78" y="230" width="510" height="330" rx="8" fill="#02232B" opacity="0.26"/>
-      <rect x="628" y="230" width="510" height="330" rx="8" fill="#02232B" opacity="0.26"/>
-      <rect x="70" y="218" width="510" height="330" rx="8" fill="#F8FBFA"/>
-      <rect x="620" y="218" width="510" height="330" rx="8" fill="#F8FBFA"/>
-    </g>
-
-    <g>
-      <rect x="70" y="218" width="510" height="10" rx="5" fill="#F0B54A"/>
-      <circle cx="117" cy="280" r="22" fill="#FFF0D1"/>
-      <path d="M117 262 V286 M109 270 V285 A10 10 0 1 0 125 285 V270 A8 8 0 0 0 109 270" fill="none" stroke="#9C6200" stroke-width="3" stroke-linecap="round"/>
-      <text x="153" y="288" fill="#36545B" font-size="20" font-weight="700">SURFACE WATER TEMPERATURE</text>
-      <text x="106" y="405" fill="#073745" font-size="104" font-weight="700">66<tspan font-size="50" baseline-shift="super">&#176;F</tspan></text>
+      <rect x="70" y="218" width="510" height="10" rx="5" fill="#F0B44D"/>
+      <circle cx="117" cy="280" r="22" fill="#FFF0D3"/>
+      <path d="M117 262 V286 M109 270 V285 A10 10 0 1 0 125 285 V270 A8 8 0 0 0 109 270" fill="none" stroke="#966000" stroke-width="3" stroke-linecap="round"/>
+      <text x="153" y="288" fill="#34535A" font-size="20" font-weight="700">SURFACE WATER TEMP</text>
+      <text x="106" y="405" fill="#063743" font-size="104" font-weight="700">66<tspan font-size="50" baseline-shift="super">&#176;F</tspan></text>
       <line x1="106" y1="437" x2="544" y2="437" stroke="#DCE8E7" stroke-width="2"/>
-      <text x="106" y="478" fill="#36545B" font-size="19" font-weight="700">Reported Nov 10, 2026</text>
-      <text x="106" y="510" fill="#687E83" font-size="17">9:23 AM CST</text>
+      <text x="106" y="478" fill="#34535A" font-size="19" font-weight="700">Reported Nov 12, 2026</text>
+      <text x="106" y="510" fill="#657D82" font-size="17">8:05 AM CST · Ameren Missouri</text>
     </g>
 
     <g>
-      <rect x="620" y="218" width="510" height="10" rx="5" fill="url(#levelAccent)"/>
+      <rect x="620" y="218" width="510" height="10" rx="5" fill="url(#levelBar)"/>
       <circle cx="667" cy="280" r="22" fill="#DDF4F1"/>
       <path d="M651 281 C660 272 666 289 675 280 S689 274 693 279 M653 290 C662 281 668 298 677 289 S689 283 692 287" fill="none" stroke="#087A83" stroke-width="3" stroke-linecap="round"/>
-      <text x="703" y="288" fill="#36545B" font-size="20" font-weight="700">LAKE LEVEL</text>
-      <text x="656" y="405" fill="#073745" font-size="90" font-weight="700">657.5<tspan font-size="39"> ft</tspan></text>
+      <text x="703" y="288" fill="#34535A" font-size="20" font-weight="700">LAKE LEVEL</text>
+      <text x="656" y="405" fill="#063743" font-size="90" font-weight="700">657.4<tspan dx="8" font-size="39">ft</tspan></text>
       <line x1="656" y1="437" x2="1094" y2="437" stroke="#DCE8E7" stroke-width="2"/>
-      <text x="656" y="478" fill="#36545B" font-size="19" font-weight="700">Reported Nov 10, 2026</text>
-      <text x="656" y="510" fill="#687E83" font-size="17">9:23 AM CST | Union Electric Datum</text>
+      <text x="656" y="478" fill="#34535A" font-size="19" font-weight="700">Observed Nov 13, 2026</text>
+      <text x="656" y="510" fill="#657D82" font-size="17">2:00 AM CST · Union Electric datum</text>
     </g>
 
     <g>
-      <rect x="70" y="582" width="1060" height="92" rx="8" fill="#062F39" stroke="#3E7983" stroke-width="1.5"/>
-      <circle cx="114" cy="628" r="21" fill="#F0B54A"/>
-      <text x="114" y="636" fill="#073745" font-size="24" font-weight="700" text-anchor="middle">i</text>
-      <text x="153" y="618" fill="#FFFFFF" font-size="19" font-weight="700">Latest Ameren report is two days old</text>
-      <text x="153" y="649" fill="#C3E0E2" font-size="17">Both readings share the report time above and are not real-time measurements.</text>
+      <rect x="70" y="582" width="1060" height="92" rx="8" fill="#062F39" stroke="#3B7B83" stroke-width="1.5"/>
+      <circle cx="114" cy="628" r="21" fill="#F0B44D"/>
+      <text x="114" y="636" fill="#063743" font-size="24" font-weight="700" text-anchor="middle">i</text>
+      <text x="153" y="618" fill="#FFFFFF" font-size="19" font-weight="700">Readings are from different reporting times</text>
+      <text x="153" y="649" fill="#C8E4E5" font-size="17">The lake level uses the newer direct gauge reading; no values have been estimated.</text>
     </g>
 
-    <text x="70" y="728" fill="#B6D7DA" font-size="16">Source: Ameren Missouri Lake Level Reports</text>
-    <text x="1130" y="728" fill="#FFFFFF" font-size="16" font-weight="700" text-anchor="end">Updated Nov 12, 2026 | 8:09 AM CST</text>
-    <text x="70" y="763" fill="#80B9BF" font-size="14">Conditions can vary by location and depth. Check local observations before going on the water.</text>
+    <text x="70" y="728" fill="#B9DADC" font-size="16">Sources: Ameren Missouri · NOAA NWPS gauge LKSM7</text>
+    <text x="1130" y="728" fill="#FFFFFF" font-size="16" font-weight="700" text-anchor="end">Updated Nov 13, 2026 · 8:09 AM CST</text>
+    <text x="70" y="763" fill="#87BBC0" font-size="14">Surface temperature can vary by location and depth. Gauge data may be revised.</text>
   </g>
 </svg>
