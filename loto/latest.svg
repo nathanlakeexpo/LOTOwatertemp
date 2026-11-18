@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
   <title id="title">Lake of the Ozarks current conditions</title>
-  <desc id="desc">Surface water temperature is 64 degrees Fahrenheit, reported by Ameren Missouri on November 16, 2026 at 8:55 AM Central Standard Time. Lake level is 657.33 feet Union Electric Datum, reported from Ameren Missouri's Bagnell Dam headwater feed on November 16, 2026 at 12:00 PM Central Standard Time. Graphic updated November 17, 2026 at 8:09 AM Central Standard Time. These are the latest posted readings, recorded at different times, and no values were estimated.</desc>
+  <desc id="desc">Surface water temperature is 64 degrees Fahrenheit, reported by Ameren Missouri on November 17, 2026 at 8:48 AM Central Standard Time. Lake level is 657.33 feet Union Electric Datum, reported from Ameren Missouri's Bagnell Dam headwater feed on November 18, 2026 at 8:00 AM Central Standard Time. Graphic updated November 18, 2026 at 8:09 AM Central Standard Time. These are the latest posted readings, recorded at different times, and no values were estimated.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#063743"/>
@@ -36,8 +36,8 @@
       <text x="153" y="288" fill="#34535A" font-size="20" font-weight="700">SURFACE WATER TEMP</text>
       <text x="106" y="405" fill="#063743" font-size="104" font-weight="700">64<tspan font-size="50" baseline-shift="super">&#176;F</tspan></text>
       <line x1="106" y1="437" x2="544" y2="437" stroke="#DCE8E7" stroke-width="2"/>
-      <text x="106" y="478" fill="#34535A" font-size="19" font-weight="700">Reported Nov 16, 2026</text>
-      <text x="106" y="510" fill="#657D82" font-size="17">8:55 AM CST &#183; Ameren Missouri</text>
+      <text x="106" y="478" fill="#34535A" font-size="19" font-weight="700">Reported Nov 17, 2026</text>
+      <text x="106" y="510" fill="#657D82" font-size="17">8:48 AM CST &#183; Ameren Missouri</text>
     </g>
 
     <g>
@@ -47,8 +47,8 @@
       <text x="703" y="288" fill="#34535A" font-size="20" font-weight="700">LAKE LEVEL</text>
       <text x="656" y="405" fill="#063743" font-size="84" font-weight="700">657.33<tspan dx="8" font-size="38">ft</tspan></text>
       <line x1="656" y1="437" x2="1094" y2="437" stroke="#DCE8E7" stroke-width="2"/>
-      <text x="656" y="478" fill="#34535A" font-size="19" font-weight="700">Measured Nov 16, 2026</text>
-      <text x="656" y="510" fill="#657D82" font-size="17">12:00 PM CST &#183; Union Electric datum</text>
+      <text x="656" y="478" fill="#34535A" font-size="19" font-weight="700">Measured Nov 18, 2026</text>
+      <text x="656" y="510" fill="#657D82" font-size="17">8:00 AM CST &#183; Union Electric datum</text>
     </g>
 
     <g>
@@ -60,7 +60,7 @@
     </g>
 
     <text x="70" y="728" fill="#B9DADC" font-size="16">Sources: Ameren Missouri &#183; Lake Ozarks Dock &amp; Lift</text>
-    <text x="1130" y="728" fill="#FFFFFF" font-size="16" font-weight="700" text-anchor="end">Updated Nov 17, 2026 &#183; 8:09 AM CST</text>
+    <text x="1130" y="728" fill="#FFFFFF" font-size="16" font-weight="700" text-anchor="end">Updated Nov 18, 2026 &#183; 8:09 AM CST</text>
     <text x="70" y="763" fill="#87BBC0" font-size="14">Surface temperature varies by location and depth. Lake level is feet Union Electric datum.</text>
   </g>
 </svg>
